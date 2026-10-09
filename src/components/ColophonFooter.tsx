@@ -112,6 +112,29 @@ export const ColophonFooter: React.FC<ColophonFooterProps> = ({ onOpenFellowship
           </div>
         </div>
 
+        {/* Institutional Disclaimer & Non-Affiliation Notice */}
+        <div className="py-6 border-b border-[#2E2A27]">
+          <div className="p-4 sm:p-5 bg-[#141211] border border-[#2E2A27] rounded-none flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div className="space-y-1.5 max-w-3xl">
+              <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wider text-amber-200/90">
+                <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block"></span>
+                <span>Institutional Notice & Non-Affiliation Disclaimer</span>
+              </div>
+              <p className="text-xs font-serif leading-relaxed text-[#A8A29E]">
+                <strong className="font-semibold text-[#EDEAE5]">Super Intelligence Institute (sii.et)</strong> is an independent conceptual and placeholder project created for research demonstration, speculative design, and aesthetic inquiry. We are <span className="text-[#EDEAE5] underline decoration-amber-400/50 underline-offset-2">not affiliated with, endorsed by, nor attempting to impersonate</span> the <strong className="text-[#EDEAE5]">Ethiopian Artificial Intelligence Institute (EAII / aii.et)</strong>, the Government of Ethiopia, or any other official state, governmental, or commercial entity.
+              </p>
+              <p className="text-[11px] font-mono text-[#78716C]">
+                All research monographs, curricula, and institutional dossiers displayed herein are speculative creative artifacts for academic demonstration and exploratory purposes.
+              </p>
+            </div>
+            <div className="shrink-0 flex md:flex-col items-center md:items-end justify-between gap-2 border-t md:border-t-0 md:border-l border-[#2E2A27] pt-3 md:pt-0 md:pl-5 text-[11px] font-mono text-[#78716C]">
+              <span className="text-stone-400">Independent Concept · sii.et</span>
+              <span className="text-amber-200/70">Not affiliated with aii.et</span>
+              <span className="text-stone-500">Placeholder Site</span>
+            </div>
+          </div>
+        </div>
+
         {/* Colophon & Typography Attribution (Constitution pattern) */}
         <div className="pt-8 flex flex-col md:flex-row items-baseline justify-between gap-6 text-[11px] font-mono text-[#78716C]">
           <div className="space-y-1">

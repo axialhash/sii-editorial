@@ -13,7 +13,7 @@ export const OperationalRibbon: React.FC = () => {
           <span aria-hidden="true" className="hidden sm:inline">·</span>
           <span className="text-[#1C1917] dark:text-[#EDEAE5] font-semibold">sii.et</span>
           <span aria-hidden="true">·</span>
-          <span>Open Access</span>
+          <span className="text-[10px] bg-[#EBE5D8] dark:bg-[#2A2724] text-[#78716C] dark:text-[#A8A29E] px-1.5 py-0.5 rounded-xs tracking-normal normal-case">Independent / Not Affiliated with aii.et</span>
         </div>
 
         <div className="flex items-center gap-3 text-[11px]">
