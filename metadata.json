@@ -1,0 +1,6 @@
+{
+  "name": "Super Intelligence Institute",
+  "description": "An independent academic institute based in Addis Ababa, Ethiopia (sii.et), advancing mathematical alignment, epistemic governance, and post-human intelligence architectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
