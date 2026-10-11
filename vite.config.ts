@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/sii-editorial/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
